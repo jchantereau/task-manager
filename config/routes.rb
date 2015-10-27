@@ -2,6 +2,7 @@ Rails.application.routes.draw do
 
   resources :tasks
 
+  root 'tasks#index'
   # get 'tasks' => 'tasks#index'
 
   # get 'tasks/:id' => 'tasks#show'
