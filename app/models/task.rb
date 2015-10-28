@@ -1,4 +1,4 @@
-class Task < ActiveRecord::Base
+class Article < ActiveRecord::Base
   validates :name, presence: true
   validates :name, uniqueness: true
 end
